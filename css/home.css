@@ -9,7 +9,7 @@ main {
   padding-bottom: 197px;
   background-image: url(../images/home-images/disk-bottom.svg);
   background-repeat: no-repeat;
-  background-position: 676px bottom;
+  background-position: center bottom;
 }
 .home-heading {
   line-height: 40px;
@@ -85,6 +85,9 @@ main {
     background-position: left 70px;
   }
   .home-content {
+    background-image: url(../images/home-images/disk-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: 676px bottom;
     padding-bottom: 200px;
   }
 }
