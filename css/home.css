@@ -204,9 +204,9 @@ main {
     margin-top: 120px;
     background-position: top left;
     font-weight: 700;
-font-size: 48px;
-line-height: 48px;
-width: 445px;
+    font-size: 48px;
+    line-height: 48px;
+    width: 445px;
   }
   #triple-a .container {
     display: grid;
@@ -226,3 +226,91 @@ width: 445px;
 /* #Triple-a-End */
 /* #Triple-a-End */
 /* #Triple-a-End */
+#deliv {
+  background-color: #004047;
+  padding-top: 120px;
+  background-image: url(../images/home-images/deliv-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+/* General-Deliv-Styles */
+
+@media (min-width: 375px) {
+  .deliv {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+  }
+  .deliv-text {
+    margin-bottom: 48px;
+  }
+  .dt-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 327px;
+    color: #ffffff;
+  }
+  .dt-heading span {
+    color: #79c8c7;
+  }
+  /* deliv-text-end */
+  /* Deliv-cards-start */
+  .deliv-cards {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+  }
+  .deliv-card {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    margin-bottom: 48px;
+  }
+  .dc-long-text {
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 36px;
+    background-image: url(../images/home-images/dc-long-text-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #ffffff;
+  }
+  .dc-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 2px;
+    color: #79c8c7;
+  }
+  .dc-i {
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  .dc-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* last-dc-bg */
+  .last-dc {
+    margin-bottom: 0px;
+    padding-bottom: 164px;
+    background-image: url(../images/home-images/deliv-bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+}
