@@ -309,8 +309,34 @@ main {
   .last-dc {
     margin-bottom: 0px;
     padding-bottom: 164px;
+  }
+  #deliv-second-bg {
     background-image: url(../images/home-images/deliv-bg-bottom.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
+  }
+}
+
+/* min-width-768px */
+
+@media (min-width: 768px) {
+  .deliv {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+  }
+  .deliv-text {
+    margin-bottom: 48px;
+  }
+  .dt-heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    width: 500px;
+  }
+  .dc-long-text {
+    width: 573px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
   }
 }
