@@ -316,9 +316,7 @@ main {
     background-position: right bottom;
   }
 }
-
 /* min-width-768px */
-
 @media (min-width: 768px) {
   .deliv {
     display: grid;
@@ -338,5 +336,30 @@ main {
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
+  }
+}
+/* min-width-1115px */
+@media (min-width: 1115px) {
+  .deliv {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+  }
+  .dt-heading {
+    font-size: 48px;
+    line-height: 48px;
+    width: 932px;
+  }
+  .deliv-cards {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+  .deliv-card {
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 120px;
+  }
+  .dc-long-text {
+  width: 300px;
   }
 }
