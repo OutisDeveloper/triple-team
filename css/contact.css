@@ -55,13 +55,14 @@
   color: #ffffff;
 }
 
-.tsentr-right form {
+.tsentr-right, form {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
 
 .tsentr-right input {
+  max-width: 400px;
   width: 540px;
   padding: 16px;
   background: transparent;
@@ -84,6 +85,7 @@
 }
 
 textarea {
+  max-width: 400px;
   width: 540px;
   height: 120px;
   padding: 16px;
@@ -176,8 +178,9 @@ textarea::placeholder {
 
 /* form-styles */
 form {
-  display: grid;
-  grid-template-rows: repeat(6, auto);
+  max-width: 400px;
+  /* display: grid;
+  grid-template-rows: repeat(6, auto); */
 }
 form input {
   background-color: transparent;
