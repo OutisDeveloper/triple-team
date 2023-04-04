@@ -1,5 +1,10 @@
 @import url(global.css);
 
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 #tsentr {
   padding: 250px 0 150px;
   background: #014e56;
@@ -128,7 +133,7 @@ textarea::placeholder {
 
 @media (max-width: 1120px) {
   #tsentr {
-    background-image: url(../images/contact-images/ponchik-1.png);
+    background-image: url(../images/contact-images/ponchik-2.png);
     background-position-y: 10%;
   }
 
@@ -162,7 +167,7 @@ textarea::placeholder {
     width: 100%;
   }
 
-  .Submit {
+  .submit {
     margin: 0 auto;
   }
 }
