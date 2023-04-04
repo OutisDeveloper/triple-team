@@ -77,6 +77,7 @@
 }
 
 .tsentr-right input::placeholder {
+  padding: 16px;
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
@@ -183,6 +184,7 @@ form {
   grid-template-rows: repeat(6, auto); */
 }
 form input {
+  padding: 16px;
   background-color: transparent;
   border: none;
   outline: none;
